@@ -6,7 +6,7 @@ package com.mt.sample;
  */
 import java.util.Date;
 
-package myapp;
+package maven-stanalone-application-0.0.1-SNAPSHOT;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Bean;
 import javax.servlet.Filter;
