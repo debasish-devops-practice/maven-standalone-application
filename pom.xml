@@ -73,6 +73,12 @@
                        <groupId>com.amazonaws</groupId>
                        <artifactId>aws-xray-recorder-sdk-aws-sdk-instrumentor</artifactId>
                 </dependency>
+		
+		<dependency>
+                       <groupId>org.springframework.boot</groupId>
+                       <artifactId>spring-boot-starter-web</artifactId>
+                </dependency>
+		
         </dependencies>
 
 	<!-- Committing and updating changes through Maven, by using below mvn command. 
