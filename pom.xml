@@ -22,13 +22,9 @@
 		<sonar.login>admin</sonar.login>
 		<sonar.password>admin</sonar.password>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-	</properties>
-	
-	<properties>
-                <maven.compiler.source>1.6</maven.compiler.source>
+		<maven.compiler.source>1.6</maven.compiler.source>
                 <maven.compiler.target>1.6</maven.compiler.target>
-        </properties>
-
+	</properties>
 	
         <dependencyManagement>
            <dependencies>
