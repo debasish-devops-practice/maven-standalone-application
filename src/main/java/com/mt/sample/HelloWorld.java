@@ -6,7 +6,7 @@ package com.mt.sample;
  */
 import java.util.Date;
 
-package maven-stanalone-application-0.0.1-SNAPSHOT;
+package sample;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Bean;
 import javax.servlet.Filter;
@@ -18,7 +18,7 @@ public class WebConfig {
 
   @Bean
   public Filter TracingFilter() {
-    return new AWSXRayServletFilter(SegmentNamingStrategy.dynamic("maven-stanalone-application-0.0.1-SNAPSHOT", "maven.exaple.com"));
+    return new AWSXRayServletFilter(SegmentNamingStrategy.dynamic("sample", "maven.exaple.com"));
   }
 
 public class HelloWorld {
